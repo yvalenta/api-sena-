@@ -10,6 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170519170119) do
+ActiveRecord::Schema.define(version: 20170519170604) do
+
+# Could not dump table "users" because of following StandardError
+#   Unknown type 'uuid' for column 'id'
 
 end
